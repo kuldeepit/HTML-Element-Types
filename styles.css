@@ -1,0 +1,62 @@
+/* Challenge 1: Block Elements */
+
+/* Style for the header, block element selector */
+h1 {
+  outline: 3px solid red;
+  color: blue;
+  text-align: center;
+}
+
+/* Challenge 2: Inline Elements */
+span {
+  outline: 3px solid red;
+}
+
+/* Style for the paragraph, element selector*/
+p {
+  outline: 3px solid black;
+  font-size: 16px;
+}
+
+/* Stuly for the whole body , universal selector*/
+
+/* Style using a class */
+.red {
+  background-color: antiquewhite;
+}
+
+/* Style using an id */
+#blue {
+  background-color: yellow;
+}
+#green {
+  background-color: aqua;
+}
+
+/* Style for each hobby section */
+section {
+  margin-bottom: 10px;
+}
+
+/* Style for the heading of each hobby */
+h2 {
+  color: green;
+}
+
+/* Style for the list items inside the Reading section */
+section ul li {
+  list-style-type: square;
+}
+
+/* Style for the image in the Dancing section */
+section img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style for the footer paragraph */
+footer p {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+}
